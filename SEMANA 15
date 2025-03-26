@@ -1,0 +1,17 @@
+informacion_personal = {
+    "nombre": "Flor Muñoz",
+    "edad": 23,
+    "ciudad": "Guayaquil",
+    "profesion": "Ingeniero"
+}
+
+informacion_personal["ciudad"] = "Guayaquil"
+
+informacion_personal["profesion"] = "Desarrollador de Software"
+
+Si "telefono" no está en informacion_personal:
+    informacion_personal["teléfono"] = "0994979401"
+
+del informacion_personal["edad"]
+
+imprimir(informacion_personal)
